@@ -17,3 +17,9 @@ create table Projects(
 	name varchar(250) not null,
 	language varchar(150) not null
 );
+
+create table Companies(
+	id serial PRIMARY KEY,
+	name varchar(250) not null,
+	city varchar(150) not null
+);
