@@ -11,3 +11,9 @@ create table Skills(
 	language varchar(250) not null,
 	level_skills varchar(64) not null 	
 );
+
+create table Projects(
+	id serial PRIMARY KEY,
+	name varchar(250) not null,
+	language varchar(150) not null
+);
