@@ -23,3 +23,9 @@ create table Companies(
 	name varchar(250) not null,
 	city varchar(150) not null
 );
+
+create table Customers(
+	id serial PRIMARY KEY,
+	name varchar(64) not null,
+	city varchar(100) not null
+);
