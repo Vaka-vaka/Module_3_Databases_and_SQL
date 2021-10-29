@@ -9,5 +9,5 @@ create table Developers (
 create table Skills(
 	id serial PRIMARY KEY,
 	language varchar(250) not null,
-	level_skills integer not null 	
+	level_skills varchar(64) not null 	
 );
