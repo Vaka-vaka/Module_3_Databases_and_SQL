@@ -38,4 +38,4 @@ INSERT INTO COMPANIES_TO_PROJECTS(COMPANIES_ID, PROJECTS_ID) VALUES
 (1, 1), (1, 2), (1, 3), (2, 1), (2, 4), (3, 3), (4, 4), (4, 1);
 
 INSERT INTO CUSTOMERS_TO_PROJECTS(CUSTOMERS_ID, PROJECTS_ID) VALUES
-(1, 5), (6, 4), (3, 8), (5, 2), (3, 1);
+(1, 1), (1, 2), (1, 3), (2, 1), (2, 2), (3, 3), (4, 4);
