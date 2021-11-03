@@ -5,10 +5,10 @@ INSERT INTO DEVELOPERS(NAME, AGE, GENDER) VALUES
 ("Lera", 33, "female");
 
 INSERT INTO SKILLS(LANGUAGE, LEVEL_SKILLS) VALUES
-("Java", "Senior"),
-("Java", "Junior"),
-("Java", "Middle"),
-("Java", "Middle");
+("java", "Senior"),
+("java", "Junior"),
+("java", "Middle"),
+("java", "Middle");
 
 INSERT INTO PROJECTS(NAME, LANGUAGE) VALUES
 ("projects_1", "Java"),
